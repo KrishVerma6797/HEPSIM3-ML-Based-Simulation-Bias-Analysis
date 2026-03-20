@@ -128,37 +128,6 @@ jupyter>=1.0
 
 ---
 
-## 🗂️ Repository Structure
-
-```
-Hepsim3/
-│
-├── 📓 HEPSIM3_GSoC2026_Elite.ipynb   ← Main evaluation notebook (run this)
-│
-├── 📄 proposal/
-│   └── HEPSIM3_GSoC2026_Proposal.docx ← GSoC 2026 project proposal
-│
-├── 📁 data/                           ← Auto-created on first run
-│   ├── QG_jets.npz                    ← Downloaded from Zenodo
-│   ├── QG_jets_1.npz
-│   └── ...
-│
-├── 📁 figures/                        ← Generated plots (auto-saved)
-│   ├── fig_a_multiplicity.png
-│   ├── fig_b_observables.png
-│   ├── fig_c_rest_frame_viz.png
-│   ├── fig_d_roc_and_scores.png
-│   ├── fig_d_confusion_matrix.png
-│   ├── fig_d_feature_importance.png
-│   ├── fig_d_shap.png
-│   └── fig_d_frame_comparison.png
-│
-├── 📄 requirements.txt
-└── 📄 README.md
-```
-
----
-
 ## 🔬 Technical Details
 
 ### Dataset
@@ -221,17 +190,6 @@ Mentors: Steve Mrenna (Fermilab), Konstantin Matchev (U. Alabama), Tony Menzo, I
 
 ---
 
-## 📚 References
-
-1. P. Komiske, E. Metodiev, J. Thaler, *Pythia8 Quark and Gluon Jets for Energy Flow*, Zenodo v1 (2019). [doi:10.5281/zenodo.3164691](https://doi.org/10.5281/zenodo.3164691)
-2. P. Komiske, E. Metodiev, J. Thaler, *Energy Flow Networks: Deep Sets for Particle Jets*, JHEP 01 (2019) 121. [arXiv:1810.05165](https://arxiv.org/abs/1810.05165)
-3. A. Andreassen et al., *OmniFold: A Method to Simultaneously Unfold All Observables*, PRL 124 (2020) 182001. [arXiv:1911.09107](https://arxiv.org/abs/1911.09107)
-4. K. Cranmer, J. Pavez, G. Louppe, *Approximating Likelihood Ratios with Calibrated Discriminative Classifiers* (2015). [arXiv:1506.02169](https://arxiv.org/abs/1506.02169)
-5. S. Lundberg & S.-I. Lee, *A unified approach to interpreting model predictions*, NeurIPS (2017). [arXiv:1705.07874](https://arxiv.org/abs/1705.07874)
-6. J. Gallicchio, M. Schwartz, *Quark and Gluon Jet Substructure*, JHEP 04 (2013) 090. [arXiv:1211.7038](https://arxiv.org/abs/1211.7038)
-7. T. Chen & C. Guestrin, *XGBoost: A Scalable Tree Boosting System*, KDD (2016). [arXiv:1603.02754](https://arxiv.org/abs/1603.02754)
-
----
 
 ## 📄 License
 
